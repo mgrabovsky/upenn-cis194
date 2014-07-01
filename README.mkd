@@ -1,0 +1,2 @@
+This a collection of solutions to homeworks from University of Pennsylvania's
+[CIS 194: Introduction to Haskell](http://www.cis.upenn.edu/~cis194/) course.
