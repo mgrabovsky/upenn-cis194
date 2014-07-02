@@ -1,5 +1,6 @@
 {-# OPTIONS_GHC -Wall #-}
 
+import Control.Monad (void)
 import Test.HUnit
 import CreditCard
 
@@ -44,5 +45,5 @@ tests = TestList [ TestLabel "number to digits decomposition" $
                              , validationTest2 ] ]
 
 main :: IO ()
-main = runTestTT tests >> return ()
+main = void $ runTestTT tests
 

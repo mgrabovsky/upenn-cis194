@@ -1,5 +1,6 @@
 {-# OPTIONS_GHC -Wall #-}
 
+import Control.Monad (void)
 import Test.HUnit
 import HanoiTowers
 
@@ -25,5 +26,5 @@ tests = TestList [ TestLabel "3-peg towers" $
                              , TestLabel "15-disc case length" hanoi4Test2 ] ]
 
 main :: IO ()
-main = runTestTT tests >> return ()
+main = void $ runTestTT tests
 
