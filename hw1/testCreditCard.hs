@@ -14,7 +14,7 @@ digitsTest4 = TestCase $ assertEqual "in negative number decomposition"
     [] (toDigits (-2014))
 
 doublingTest1, doublingTest2 :: Test
-doublingTest1 = TestCase $ assertEqual "in every-other doubling of even-length list" 
+doublingTest1 = TestCase $ assertEqual "in every-other doubling of even-length list"
     [16,7,12,5] (doubleEveryOther [8,7,6,5])
 doublingTest2 = TestCase $ assertEqual "in every-other doubling of odd-length list"
     [1,4,3] (doubleEveryOther [1,2,3])
