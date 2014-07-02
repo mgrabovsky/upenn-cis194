@@ -43,5 +43,6 @@ tests = TestList [ TestLabel "number to digits decomposition" $
                     TestList [ validationTest1
                              , validationTest2 ] ]
 
-main = runTestTT tests
+main :: IO ()
+main = runTestTT tests >> return ()
 
