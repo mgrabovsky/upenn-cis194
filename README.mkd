@@ -1,5 +1,6 @@
 This a collection of solutions to homeworks from University of Pennsylvania's
-[CIS 194: Introduction to Haskell](http://www.cis.upenn.edu/~cis194/) course.
+[CIS 194: Introduction to Haskell](http://www.seas.upenn.edu/~cis194/spring13/index.html)
+course (Spring 2013 edition).
 
 See also [CIS 552: Advanced Programming](http://www.seas.upenn.edu/~cis552/index.html).
 
